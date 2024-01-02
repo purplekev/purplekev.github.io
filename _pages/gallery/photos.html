@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="stylephotos.css"> -->
+    <style>
+        /* Your CSS styles here */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+          <img src="../assets/img/1.jpg">
+          <img src="../assets/img/2.jpg">
+          <img src="../assets/img/3.jpg">
+          <img src="../assets/img/4.jpg">
+          <img src="../assets/img/5.jpg">
+          <img src="../assets/img/6.jpg">
+          <img src="../assets/img/7.jpg">
+        </div>
+        <div class="column">
+          <img src="../assets/img/8.jpg">
+          <img src="../assets/img/9.jpg">
+          <img src="../assets/img/10.jpg">
+          <img src="../assets/img/11.jpg">
+          <img src="../assets/img/12.jpg">
+          <img src="../assets/img/underwater.jpg">
+        </div>
+        <div class="column">
+            <img src="../assets/img/1.jpg">
+            <img src="../assets/img/2.jpg">
+            <img src="../assets/img/3.jpg">
+            <img src="../assets/img/4.jpg">
+            <img src="../assets/img/5.jpg">
+            <img src="../assets/img/6.jpg">
+            <img src="../assets/img/7.jpg">
+        </div>
+        <div class="column">
+            <img src="../assets/img/1.jpg">
+            <img src="../assets/img/2.jpg">
+            <img src="../assets/img/3.jpg">
+            <img src="../assets/img/4.jpg">
+            <img src="../assets/img/5.jpg">
+            <img src="../assets/img/6.jpg">
+        </div>
+      </div>
+</body>
+</html>
