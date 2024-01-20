@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /gallery/
 title: gallery
-description: a collection of my photos !!
+description: a collection of my photos (please give the page some time to load) :]
 nav: true
 nav_order: 4
 
