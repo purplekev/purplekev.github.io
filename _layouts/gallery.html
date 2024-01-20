@@ -31,17 +31,32 @@ layout: gallery2
             text-align: center;
         }
 
-        @media screen and (max-width: 800px) {
+        /* @media screen and (max-width: 800px) {
             .column {
                 flex: 50%;
                 max-width: 50%;
             }
-        }
+        } */
 
         @media screen and (max-width: 600px) {
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 4px 4px;
+                max-width: 2500px;
+                text-align: center; /* Center the columns on smaller screens */
+            }
+
             .column {
                 flex: 100%;
                 max-width: 100%;
+                padding: 4px 4px;
+            }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
             }
         }
     </style>
