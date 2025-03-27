@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, i'm Kevin!
 
-I'm currently in my third year of studying Computer Science at UNSW, and an aspiring software engineer.
+I'm currently in my fourth year of studying Computer Science at UNSW, and an aspiring software engineer.
 
 In my spare time, I enjoy making videos, taking photos and chasing sunrises and waterfalls.
 
