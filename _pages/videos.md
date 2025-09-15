@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /videos/
 title: videos
-description: a collection of my video projects I made for fun.
+description: a collection of my video projects
 nav: true
 nav_order: 1
 

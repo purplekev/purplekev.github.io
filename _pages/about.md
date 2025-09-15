@@ -20,6 +20,6 @@ Hi, i'm Kevin!
 
 I'm currently in my fourth year of studying Computer Science at UNSW, and an aspiring software engineer.
 
-In my spare time, I enjoy making videos, taking photos and chasing sunrises and waterfalls.
+In my spare time, I enjoy creating videos, chasing sunrises and training martial arts.
 
 You can find most of my work on [instagram](https://www.instagram.com/purplekev/) and my videos on [youtube](https://www.youtube.com/@purplekev17)!

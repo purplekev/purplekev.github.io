@@ -39,7 +39,7 @@ nav_order: 6
   <img src="/assets/img/gear2.png" alt="setup">
 
   <br />
-  <p>I shoot most things with the Sony a7iii with a 16-35mm f2.8 GM. For aerial shots, I use the Mavic Air and for water/action shots I run with the GoPro Hero 7. I also carry the Olympus AF-1 as a fun point and shoot film camera :]</p>
+  <p>I shoot most things with the Sony a7iii with a 16-35mm f2.8 GM. For aerial shots, I use the Mavic Air and for water/action shots I run with the OSMO Action 4. I also carry the Olympus AF-1 as a point and shoot film camera</p>
 
 </body>
 </html>

@@ -1,0 +1,113 @@
+---
+layout: work2
+---
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 2500px;
+            margin: 0 auto;
+        }
+
+        .column {
+            flex: 50%;
+            max-width: 50%;
+            padding: 4px;
+        }
+
+        .column img {
+            width: 100%;
+            margin-top: 8px;
+            vertical-align: middle;
+            display: block;
+        }
+
+        .post-header {
+            text-align: center;
+        }
+
+        /* Responsive for mobile */
+        @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+    <title>{{ page.title }}</title>
+</head>
+
+<div class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-description">{{ page.description }}</p>
+    </header>
+
+    <div class="row">
+        <!-- Repeat this block for each image -->
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID1.webp" type="image/webp">
+                <img src="../assets/gallery/HTID1.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID2.webp" type="image/webp">
+                <img src="../assets/gallery/HTID2.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID4.webp" type="image/webp">
+                <img src="../assets/gallery/HTID4.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID7.webp" type="image/webp">
+                <img src="../assets/gallery/HTID7.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID8.webp" type="image/webp">
+                <img src="../assets/gallery/HTID8.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID3.webp" type="image/webp">
+                <img src="../assets/gallery/HTID3.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID10.webp" type="image/webp">
+                <img src="../assets/gallery/HTID10.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID5.webp" type="image/webp">
+                <img src="../assets/gallery/HTID5.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID6.webp" type="image/webp">
+                <img src="../assets/gallery/HTID6.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <div class="column">
+            <picture>
+                <source srcset="../assets/gallery/HTID9.webp" type="image/webp">
+                <img src="../assets/gallery/HTID9.jpg" alt="HTID Image" loading="lazy">
+            </picture>
+        </div>
+        <!-- Continue with the rest of your images -->
+    </div>
+</div>
